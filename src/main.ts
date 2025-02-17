@@ -13,7 +13,7 @@ import ElementPlus from 'element-plus' //全局引入
 import 'element-plus/dist/index.css'
 
 import myPlugin from './plugins/myPlugin.ts';
-
+console.log('start')
 const app = createApp(App)
 
 app.use(ElementPlus)
